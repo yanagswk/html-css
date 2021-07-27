@@ -137,6 +137,7 @@ header {
 
 .text-contents {
     width: 80%;
+    display: inline-block;
     font-size: 13px;
     margin-top: 15px;
     color: #b3aeb5;
@@ -161,3 +162,40 @@ header {
 /* .lessons {
     margin-top: 50px;
 } */
+
+.message-wrapper {
+    text-align: center;
+}
+
+.message {
+    background-color: #5dca88;
+    opacity: 0.8;
+    padding: 15px 45px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: 0px 7px #1a7940;
+    cursor: pointer;
+}
+
+.message:active {
+    /* cursor: pointer; */
+    position: relative;
+    box-shadow: none;
+    top: 7px;
+}
+
+.footer {
+    color: #b3aeb5;
+    border: 1px solid #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.container p {
+    font-size: 12px;
+}
+
+.footer img {
+    width: 124px;
+}
