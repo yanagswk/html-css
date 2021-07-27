@@ -1,0 +1,163 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-wrapper {
+    padding: 180px 0px 100px 0px;
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+}
+
+
+.container {
+    /* 「margin: 0 auto」 で中央にできる。
+    そのときwidthの指定は必須 */
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.btn {
+    /* aタグはinline-block要素じゃないと
+    widthやpaddingが指定できない。*/
+    display: inline-block;
+    padding: 8px 24px;
+    opacity: 0.8;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.Twitter {
+    background-color: #55acee;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.btn-wrapper {
+    margin-top: 30px;
+}
+
+.btn-wrapper p {
+    margin: 15px 0px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    /* imgを直接指定して、大きさを変える */
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float:left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right a {
+    color: white;
+    display: block;
+    line-height: 65px;
+    padding: 0px 25px;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lesson-wrapper {
+    height: 580px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding: 80px 0px 50px 0px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.text-contents {
+    width: 80%;
+    font-size: 13px;
+    margin-top: 15px;
+    color: #b3aeb5;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+/* .lessons {
+    margin-top: 50px;
+} */
