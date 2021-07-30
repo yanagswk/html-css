@@ -1,3 +1,17 @@
+# 勝手にmarginやpaddingの余白がつく場合  
+- 全ての要素に対して、余白をリセットする。  
+```css
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+```
+
+<br>
+<br>
 
 # 要素の中央寄せ方法  
 - インライン要素  (img,a,span,buttonなど)
