@@ -14,7 +14,7 @@ form, input, div {
 <br>
 
 # 要素の中央寄せ方法  
-- インライン要素  (img,a,span,buttonなど)
+- インライン要素  (img,a,span,p,buttonなど)
   - text-align:center;  
   - 親の要素に text-align:center を記述する。  
   - 親がインライン要素だと、中央よせにならないので、ブロック要素にする。  
